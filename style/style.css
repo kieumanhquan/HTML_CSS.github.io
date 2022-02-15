@@ -42,6 +42,28 @@ li a:hover {
 	}
 }
 
+//////////////////////////////////
+.text {
+	color: #fff;
+	position: absolute;
+	top: 30px
+}
+
+@media screen and (max-width: 992px) {
+	.baner_img {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.text {
+		color: #fff;
+		position: absolute;
+		top: 180px;
+		left: 70px;
+	}
+}
+
 ////////////////////////////////
 
 @media screen and (min-width: 992px) {
